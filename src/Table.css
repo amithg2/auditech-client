@@ -1,4 +1,18 @@
 .table {
   width: 70vw;
   margin: 5rem auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+
+@media only screen and (max-width: 1700px) {
+    .table {
+        width: 92vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    .table {
+        width: 100vw;
+    }
+  }
